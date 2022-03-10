@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "dlscreenremover",
+  "version": "${version}",
+  "name": "DL Screen Remover",
+  "description": "关闭下载地形屏幕",
+  "authors": [
+    "Icalingua"
+  ],
+  "contact": {
+    "website": "https://github.com/MATRIX-feather",
+    "repo": "https://github.com/MATRIX-feather"
+  },
+  "license": "MIT",
+  "icon": "assets/dlscreenremover/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "io.github.matrixfeather.dlscreenremover.client.DlScreenRemoverClient"
+    ],
+    "main": [
+      "io.github.matrixfeather.dlscreenremover.DlScreenRemover"
+    ]
+  },
+  "mixins": [
+    "DlScreenRemover.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "minecraft": "1.18.2"
+  }
+}

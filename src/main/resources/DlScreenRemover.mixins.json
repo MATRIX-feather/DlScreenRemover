@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.matrixfeather.dlscreenremover.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+  ],
+  "client": [
+    "MixinDownloadingTerrainScreen"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
